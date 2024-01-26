@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Layout Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333333ed;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .container {
+      
+      display:flex;
+      justify-content:center;
+      margin: 20px;
+    
+    }
+
+    .sidebar {
+      width: 25%;
+      background-color: #8e8e90;
+      padding: 20px;
+    }
+
+    .main-content {
+      width: 75%;
+      padding: 20px;
+      background-color: #33333355;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Website</h1>
+</header>
+
+<div class="container">
+  <div class="sidebar">
+    <h2>Sidebar</h2>
+    <p>ABD ALRAHMAN abojodeh.</p>
+  </div>
+
+  <div class="main-content">
+    <h2>Main Content</h2>
+    <p>This is the main content area. It can have paragraphs, images, and more.
+      <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);" src="file:///F:/downlouds/imgEarth.webp" width="695" height="695"></p>
+  </div>
+</div>
+
+<footer>
+  &copy; 2023 My Website. All rights reserved.
+</footer>
+
+</body>
+</html>
